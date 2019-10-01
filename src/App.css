@@ -1,3 +1,25 @@
 .App {
   text-align: center;
 }
+
+.FancyButton {
+  background-color: darkcyan;
+  color: gold;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid darkblue;
+  height: 50px;
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.FancyButton:hover {
+  background-color: cyan !important;
+  color: darkgoldenrod !important;
+}
+
+.FancyButton:active {
+  box-shadow: 0 5px #666 !important;
+  transform: translateY(4px) !important;
+}
